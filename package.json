@@ -1,0 +1,20 @@
+{
+    "name": "Native UI FiveM LUA",
+    "description": "NativeUI LUA Support For Visual Studio Code",
+    "version": "1.0.0",
+    "publisher": "Naytox",
+    "icon": "images/logo.png",
+    "license": "Free",
+    "engines": {
+        "vscode": "^1.0.0 Alpha"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "lua",
+            "path": "./snippets/snippets.json"
+        }]
+    }
+}

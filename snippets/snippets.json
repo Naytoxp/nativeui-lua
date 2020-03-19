@@ -1,0 +1,274 @@
+{
+    "NativeUI.CreatePool": {
+        "prefix": "NativeUI.CreatePool",
+        "body": [
+            "NativeUI.CreatePool(${1:})"
+        ]
+    },
+    "NativeUI.CreateMenu": {
+        "prefix": "NativeUI.CreateMenu",
+        "body": [
+            "NativeUI.CreateMenu(${1:Title}, ${2:Subtitle}, ${3:X}, ${4:Y}, ${5:TxtDictionary}, ${6:TxtName})"
+        ]
+    },
+    "NativeUI.CreateItem": {
+        "prefix": "NativeUI.CreateItem",
+        "body": [
+            "NativeUI.CreateItem(${1:Text}, ${2:Description})"
+        ]
+    },
+    "NativeUI.CreateColouredItem": {
+        "prefix": "NativeUI.CreateColouredItem",
+        "body": [
+            "NativeUI.CreateColouredItem(${1:Text}, ${2:Description}, ${3:MainColour}, ${4:HighlightColour})"
+        ]
+    },
+    "NativeUI.CreateCheckboxItem": {
+        "prefix": "NativeUI.CreateCheckboxItem",
+        "body": [
+            "NativeUI.CreateCheckboxItem(${1:Text}, ${2:Check}, ${3:Description})"
+        ]
+    },
+    "NativeUI.CreateListItem": {
+        "prefix": "NativeUI.CreateListItem",
+        "body": [
+            "NativeUI.CreateListItem(${1:Text}, ${2:Items}, ${3:Index}, ${4:Description})"
+        ]
+    },
+    "NativeUI.CreateSliderItem": {
+        "prefix": "NativeUI.CreateSliderItem",
+        "body": [
+            "NativeUI.CreateSliderItem(${1:Text}, ${2:Items}, ${3:Index}, ${4:Description}, ${5:Divider})"
+        ]
+    },
+    "NativeUI.CreateProgressItem": {
+        "prefix": "NativeUI.CreateProgressItem",
+        "body": [
+            "NativeUI.CreateProgressItem(${1:Text}, ${2:Items}, ${3:Index}, ${4:Description}, ${5:Counter})"
+        ]
+    },
+    "NativeUI.CreateSprite": {
+        "prefix": "NativeUI.CreateSprite",
+        "body": [
+            "NativeUI.CreateSprite(${1:TxtDictionary}, ${2:TxtDictionary}, ${3:X}, ${4:Y}, ${5:Widht}, ${6:Height}, ${7:Heading}, ${8:R}, ${9:G}, ${10:B}, ${11:A})"
+        ]
+    },
+    "NativeUI.CreateRectangle": {
+        "prefix": "NativeUI.CreateRectangle",
+        "body": [
+            "NativeUI.CreateRectangle(${1:X}, ${2:Y}, ${3:Width}, ${4:Height}, ${5:R}, ${6:G}, ${7:B}, ${8:A})"
+        ]
+    },
+    "NativeUI.CreateText": {
+        "prefix": "NativeUI.CreateText",
+        "body": [
+            "NativeUI.CreateText(${1:Text}, ${2:X}, ${3:Y}, ${4:Scale}, ${5:R}, ${6:G}, ${7:B}, ${8:A}, ${9:Font}, ${10:Alignment}, ${11:DropShadow], ${12:Outline}, ${13:WordWrap})"
+        ]
+    },
+    "NativeUI.CreateHeritageWindow": {
+        "prefix": "NativeUI.CreateHeritageWindow",
+        "body": [
+            "NativeUI.CreateHeritageWindow(${1:Mum}, ${2:Dad})"
+        ]
+    },
+    "NativeUI.CreateGridPanel": {
+        "prefix": "NativeUI.CreateGridPanel",
+        "body": [
+            "NativeUI.CreateGridPanel(${1:TopText}, ${2:LeftText}, ${3:RightText}, ${4:BottomText})"
+        ]
+    },
+    "NativeUI.CreateColourPanel": {
+        "prefix": "NativeUI.CreateColourPanel",
+        "body": [
+            "NativeUI.CreateColourPanel(${1:Title}, ${2:TitleColours})"
+        ]
+    },
+    "NativeUI.CreatePercentagePanel": {
+        "prefix": "NativeUI.CreatePercentagePanel",
+        "body": [
+            "NativeUI.CreatePercentagePanel(${1:MinText}, ${2:MaxText})"
+        ]
+    },
+    ":OnIndexChange": {
+        "prefix": ":OnIndexChange",
+        "body": [
+            ":OnIndexChange = function(${1:menu}, ${2:newindex})"
+        ]
+    },
+    ":OnListChange": {
+        "prefix": ":OnListChange",
+        "body": [
+            ":OnListChange = function(${1:menu}, ${2:list}, ${3:newindex})"
+        ]
+    },
+    ":OnSliderChange": {
+        "prefix": ":OnSliderChange",
+        "body": [
+            ":OnSliderChange = function(${1:menu}, ${2:slider}, ${3:newindex})"
+        ]
+    },
+    ":OnProgressChange": {
+        "prefix": ":OnProgressChange",
+        "body": [
+            ":OnProgressChange = function(${1:menu}, ${2:progress}, ${3:newindex})"
+        ]
+    },
+    ":OnCheckboxChange": {
+        "prefix": ":OnCheckboxChange",
+        "body": [
+            ":OnCheckboxChange = function(${1:menu}, ${2:item}, ${3:checked})"
+        ]
+    },
+    ":OnListSelect": {
+        "prefix": ":OnListSelect",
+        "body": [
+            ":OnListSelect = function(${1:menu}, ${2:list}, ${3:index})"
+        ]
+    },
+    ":OnSliderSelect": {
+        "prefix": ":OnSliderSelect",
+        "body": [
+            ":OnSliderSelect = function(${1:menu}, ${2:slider}, ${3:index})"
+        ]
+    },
+    ":OnProgressSelect": {
+        "prefix": ":OnProgressSelect",
+        "body": [
+            ":OnProgressSelect = function(${1:menu}, ${2:progress}, ${3:index})"
+        ]
+    },
+    ":OnItemSelect": {
+        "prefix": ":OnItemSelect",
+        "body": [
+            ":OnItemSelect = function(${1:menu}, ${2:item}, ${3:index})"
+        ]
+    },
+    ":OnMenuChanged": {
+        "prefix": ":OnMenuChanged",
+        "body": [
+            ":OnMenuChanged = function(${1:menu}, ${2:newmenu}, ${3:forward})"
+        ]
+    },
+    ":AddSubMenu": {
+        "prefix": ":AddSubMenu",
+        "body": [
+            ":AddSubMenu(${1:Menu}, ${2:Menu}, ${3:Description}, ${4:KeepPosition}, ${5:KeepBanner})"
+        ]
+    },
+    ":Add": {
+        "prefix": ":Add",
+        "body": [
+            ":Add(${1:menu})"
+        ]
+    },
+    ":MouseEdgeEnabled": {
+        "prefix": ":MouseEdgeEnabled",
+        "body": [
+            ":MouseEdgeEnabled(${1:bool})"
+        ]
+    },
+    ":ControlDisablingEnabled": {
+        "prefix": ":ControlDisablingEnabled",
+        "body": [
+            ":ControlDisablingEnabled(${1:bool})"
+        ]
+    },
+    ":ResetCursorOnOpen": {
+        "prefix": ":ResetCursorOnOpen",
+        "body": [
+            ":ResetCursorOnOpen(${1:bool})"
+        ]
+    },
+    ":MultilineFormats": {
+        "prefix": ":MultilineFormats",
+        "body": [
+            ":MultilineFormats(${1:bool})"
+        ]
+    },
+    ":Audio": {
+        "prefix": ":Audio",
+        "body": [
+            ":Audio(${1:Attribute}, ${2:Setting})"
+        ]
+    },
+    ":WidthOffset": {
+        "prefix": ":WidthOffset",
+        "body": [
+            ":WidthOffset(${1:offset})"
+        ]
+    },
+    ":CounterPreText": {
+        "prefix": ":CounterPreText",
+        "body": [
+            ":CounterPreText(${1:str})"
+        ]
+    },
+    ":MouseControlsEnabled": {
+        "prefix": ":MouseControlsEnabled",
+        "body": [
+            ":MouseControlsEnabled(${1:bool})"
+        ]
+    },
+    ":RefreshIndex": {
+        "prefix": ":RefreshIndex",
+        "body": [
+            ":RefreshIndex()"
+        ]
+    },
+    ":ProcessMenus": {
+        "prefix": ":ProcessMenus",
+        "body": [
+            ":ProcessMenus()"
+        ]
+    },
+    ":ProcessControl": {
+        "prefix": ":ProcessControl",
+        "body": [
+            ":ProcessControl()"
+        ]
+    },
+    ":ProcessMouse": {
+        "prefix": ":ProcessMouse",
+        "body": [
+            ":ProcessMouse()"
+        ]
+    },
+    ":Draw": {
+        "prefix": ":Draw",
+        "body": [
+            ":Draw()"
+        ]
+    },
+    ":IsAnyMenuOpen": {
+        "prefix": ":IsAnyMenuOpen",
+        "body": [
+            ":IsAnyMenuOpen()"
+        ]
+    },
+    ":CloseAllMenus": {
+        "prefix": ":CloseAllMenus",
+        "body": [
+            ":CloseAllMenus()"
+        ]
+    },
+    ":SetBannerSprite": {
+        "prefix": ":SetBannerSprite",
+        "body": [
+            ":SetBannerSprite(${1:Sprite})"
+        ]
+    },
+    ":SetBannerRectangle": {
+        "prefix": ":SetBannerRectangle",
+        "body": [
+            ":SetBannerRectangle(${1:Rectangle})"
+        ]
+    },
+    ":TotalItemsPerPage": {
+        "prefix": ":TotalItemsPerPage",
+        "body": [
+            ":TotalItemsPerPage(${1:Value})"
+        ]
+    },
+
+
+}
