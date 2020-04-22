@@ -1,3 +1,5 @@
+THERE ARE SOME ERRORS THAT WILL BE FIXED SOON
+
 NativeUI Lua Extension for Visual Studio Code
 Based on : fivem-lua by dhawton (https://github.com/dhawton/vsc-fivem) THANKS !
 Usefull tool for the ones who are using NativeUI Lua
